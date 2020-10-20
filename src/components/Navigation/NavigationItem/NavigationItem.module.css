@@ -1,0 +1,37 @@
+.NavigationItem {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 90%;
+    margin: 0px 2px;
+}
+
+.NavigationLink {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 125px;
+    border-radius: 15px;
+    transition: color 400ms ease-out, background-color 400ms ease-out;
+}
+
+.NavigationLink:link,
+.NavigationLink:visited,
+.NavigationLink:active,
+.NavigationLink:hover {
+    text-decoration: none;
+}
+
+.NavigationLink:hover, .ActiveLink {
+    background-color: white;
+    color: #5851EA;
+    transition: all 400ms ease-out
+}
+
+@media only screen and (max-width: 800px) {
+    .NavigationItem {
+        margin: 5px 0;
+    }
+}

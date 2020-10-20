@@ -1,0 +1,117 @@
+.AugmentedOne img {
+    width: 100%;
+    background-color: white;
+}
+
+.Augmented {
+    position: relative;
+    overflow: hidden;
+}
+
+.SectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+
+.Container {
+    display: flex;
+    background-image: url('../../../assets/curve.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 140px;
+}
+
+.AugmentedOne {
+    width: 60%;
+}
+
+.AugmentedTwo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Augmented hr {
+    width: 30px;
+    border: 1px solid #5851EA;
+    margin-top: 50px;
+}
+
+.Augmented h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Augmented p {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 300;
+    color: grey;
+}
+
+.AugmentedTwo p {
+    text-align: left;
+}
+
+.AugmentedTwo div {
+    max-width: 300px;
+}
+
+.AugmentedTwo hr {
+    margin-top: 25px;
+    padding: 0;
+    width: 80px;
+}
+
+.Augmented button {
+    font-size: 80%;
+}
+
+.Augmented svg {
+    height: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AugmentedTwo {
+        width: 100%;
+    }
+
+    .Augmented h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .Augmented svg {
+        width: 50px;
+        margin: auto;
+        display: block;
+    }
+
+    .Augmented p {
+        margin: 10px 0;
+    }
+
+    .AugmentedTwo p {
+        text-align: center;
+    }
+
+    .AugmentedTwo button {
+        margin: 0 auto 30px auto;
+    }
+
+    .SectionContainer {
+        padding-top: 25px;
+    }
+}
